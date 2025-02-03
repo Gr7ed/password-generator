@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background: #1F2937;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    border-bottom: 4px solid #2F3E53;
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    color: #FFFFFF;
+    margin: 100px 140px 0 3px;
+    font-family: "Karla", serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+span{
+    color: #4ADF86;
+}
+p{
+    color: #FFFFFF;
+    margin: 15px 140px 0 3px;
+    font-family: "Inter", serif;
+    font-weight: 150;
+    font-size: 20px;
+}
+#generate-btn{
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 191px;
+    height: 42px;
+    margin: 30px 140px 35px 3px;
+    border-radius: 6px;
+    border: none;
+    background: #10B981;
+    padding: 9px 15px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+#pass-fields{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: 20px;
+    margin-right: 750px;
+    margin-top: 35px;
+}
+.pass-field{
+    width: 200px;
+    height: 42px;
+    background: #273549;
+    border: none;
+    border-radius: 6px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    color: #55F991;
+    font-size: 16px;
+    text-align: center;
+    line-height: 32px;
+    padding: 15px 16px 4px 16px;
+}
+
